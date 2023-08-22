@@ -1,0 +1,89 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .telegram {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .company-logo {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .content-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
+  
+  .input-box {
+    text-align: center;
+    border: 1px solid #363333;
+    padding: 57px;
+    max-width: 400px;
+  }
+  
+  .input-icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    border: 0.5px solid #867d7d;
+    padding: 5px;
+    
+  }
+  
+  .input-icon img {
+    width: 25px;
+    margin-right: 12px;
+  }
+  
+  .input-icon input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+  }
+
+  
+  
+  .login-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .register-link {
+    margin-top: 10px;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  
